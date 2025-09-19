@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <img src="Jouns.png" alt="Johan Fuentes" class="logo">
+        <img src="images/Jouns.png/" alt="Johan Fuentes" class="logo">
         <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -23,17 +23,15 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button class="nav-toggle" aria-label="Toggle navigation">
-            <span class="hamburger"></span>
-        </button>
     </header>
     <main>
-        <h2>Frontend Developer</h2>
-        <p>I love tech ❤️</p>
+        <div class="intro">
+            <h2>Frontend Developer</h2>
+            <p>I love tech ❤️</p>
+        </div>
         <section class="content">
             <article>
                 <h2>Projects</h2>
-                <p></p>
                 <ul>
                     <li>HTML only portfolio</li>
                     <li>Calculator</li>
@@ -43,20 +41,22 @@
                 </ul>
                 <a href="projects.html">See more</a>
             </article>
-            <article>
-                <h2>Work Experience</h2>
-                <ul>
-                    <li>Frontend Developer, currently solving roadmap.sh projects</li>
-                </ul>
-                <a href="https://roadmap.sh/u/joones" target="_blank">Visit my profile</a>
-            </article>
-            <article>
-                <h2>OpenSource Work</h2>
-                <ul>
-                    <li>Will contribute to OpenSource projects in the future</li>
-                </ul>
-                <a href="https://github.com/JoonesCS" target="_blank">Visit my GitHub profile</a>
-            </article>
+            <div class ="work-experience">
+                <article>
+                    <h2>Work Experience</h2>
+                    <ul>
+                        <li>Frontend Developer, currently solving roadmap.sh projects</li>
+                    </ul>
+                    <a href="https://roadmap.sh/u/joones" target="_blank">Visit my profile</a>
+                </article>
+                <article>
+                    <h2>OpenSource Work</h2>
+                    <ul>
+                        <li>Will contribute to OpenSource projects in the future</li>
+                    </ul>
+                    <a href="https://github.com/JoonesCS" target="_blank">Visit my GitHub profile</a>
+                </article>
+            </div>
             <article>
                 <h2>Education</h2>
                 <p>Currently in High School studying for a High School Diploma in Science</p>
@@ -77,18 +77,22 @@
                     <li>Folklore</li>
                 </ul>
             </article>
-            <aside>
+            <aside class="testimonials">
                 <h2>Reviews from my teachers</h2>
-                <ul>
-                    <li>"Johan is a dedicated student with a passion for learning." - Math Teacher</li>
-                    <li>"His projects are always well thought out and executed." - Computer Science Teacher</li>
-                    <li>"Johan's Memory capacity is impressive." - History Teacher</li>
-                </ul>
+                <div class="review">
+                    <p>"Johan is a dedicated student with a passion for learning." - Math Teacher</p>
+                </div>
+                <div class="review">
+                    <p>"His projects are always well thought out and executed." - Computer Science Teacher</p>
+                </div>
+                <div class="review">
+                    <p>"Johan's Memory capacity is impressive." - History Teacher</p>
+                </div>
             </aside>
-                
         </section>
     </main>
     <footer>
         <p>&copy; 2025 Johan Fuentes. All rights reserved.</p>
     </footer>
 </body>
+</html>

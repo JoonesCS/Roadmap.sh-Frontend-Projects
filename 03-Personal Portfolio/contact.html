@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <img src="images/Jouns.png" alt="Johan Fuentes" class="logo">
+        <img src="images/Jouns.png/" alt="Johan Fuentes" class="logo">
         <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -29,25 +29,31 @@
             <h2>Frontend Developer</h2>
             <p>I love tech ❤️</p>
         </div>
-        <section class="content-projects">
+        <section class="content-contact">
             <article>
-                <h2>Projects</h2>
-                <h3>Here are some of my projects:</h3>
-                <h3>HTML only portfolio</h3>
-                <p>A simple portfolio website built with just HTML and CSS.</p>
-                <h3>Calculator</h3>
-                <p>A basic calculator application using HTML, CSS, and JavaScript.</p>
-                <h3>Quiz App</h3>
-                <p>An interactive quiz application built with HTML, CSS, and JavaScript.</p>
-                <h3>Countdown Timer</h3>
-                <p>A countdown timer application using HTML, CSS, and JavaScript.</p>
-                <h3>Product Upcoming Page</h3>
-                <p>A landing page for an upcoming product built with HTML and CSS.</p>
+                <h2>Contact Me</h2>
+                <ul>
+                    <li>Email: johan@example.com</li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>LinkedIn: linkedin.com/in/johanfuentes</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Get in Touch</h2>
+                <form class="contact-form" action="submit_form.php" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email me:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
             </article>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Johan Fuentes. All rights reserved.</p>
-    </footer>
 </body>
 </html>
