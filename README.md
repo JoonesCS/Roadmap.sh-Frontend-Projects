@@ -4,3 +4,4 @@ this repository contains projects from the frontend roadmap in [roadmap.sh.](htt
 The projects are the following:
 - https://roadmap.sh/projects/single-page-cv
 - https://roadmap.sh/projects/basic-html-website
+- https://roadmap.sh/projects/portfolio-website
